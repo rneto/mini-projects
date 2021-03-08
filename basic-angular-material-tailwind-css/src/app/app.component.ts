@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FormControl } from '@angular/forms';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'basic-angular-material-tailwind-css';
+  today = new FormControl(new Date());
+
+  constructor(private _snackBar: MatSnackBar) {}
+
+  openSnackBar(message: string, date: string) {
+    this._snackBar.open(message, date, {
+      duration: 2000,
+    });
+  }
 }
