@@ -3,6 +3,7 @@
 This is a repository for mini projects.
 
 - CSS mini projects
+   - [Chat layout](chat-layout): bottom-aligned vertical messaging design.
    - [Screen fit design](screen-fit-design): screen-friendly design with fixed header and footer and scrollable body.
    - [Scroll Snap](css-scroll-snap): testing the scroll snap funcionality.
    - [Responsive embed](responsive-embed): embed element with responsive width and height.
