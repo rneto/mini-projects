@@ -3,6 +3,7 @@
 This is a repository for mini projects.
 
 - CSS mini projects
+   - [Fit Image](fit-image): A way to fit an image to its container.
    - [Chat layout](chat-layout): bottom-aligned vertical messaging design.
    - [Screen fit design](screen-fit-design): screen-friendly design with fixed header and footer and scrollable body.
    - [Scroll Snap](css-scroll-snap): testing the scroll snap funcionality.
@@ -10,4 +11,3 @@ This is a repository for mini projects.
    - [Truncate String Ellipsis](truncate-string-ellipsis): truncate string with ellipsis.
    - [Basic Tailwind CSS](basic-tailwind-css): basic example of using Tailwind CSS.
    - [Basic Angular Material Tailwind CSS](basic-angular-material-tailwind-css): basic angular material and Tailwind CSS common usage example.
-
